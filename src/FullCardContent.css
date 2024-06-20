@@ -1,0 +1,19 @@
+.full-card{
+    background-color: blanchedalmond;
+}
+.full-card img{
+    margin: 1.5rem;
+    padding: 1.5rem;
+    border-radius: 10px;
+}
+.details-h2{
+    color: #333;
+}
+.details-h3{
+    color: #333;
+    font-size: x-large;
+}
+.details-p{
+    color: #333;
+    font-size: larger;
+}

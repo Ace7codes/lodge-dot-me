@@ -1,0 +1,42 @@
+.about{
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+.about img{
+    margin-left: 6rem;
+}
+.about-hero{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-image: url(home-background-2.avif);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-width: 100%;
+    min-height: 50vh;
+    color: papayawhip;
+}
+.about-hero h2{
+    text-align: center;
+    font-weight: 900;
+    font-size: 5rem;
+    margin: 1.5rem;
+    padding: 1.5rem;
+}
+.about-text{
+    margin: 1.5rem;
+    padding: 1.5rem;
+}
+@media(max-width : 535px){
+    .about-hero h2{
+        font-size: 3rem;
+    }
+}
+@media(max-width : 300px){
+    .about-hero h2{
+        font-size: 1.7rem;
+        text-align: left;
+    }
+}

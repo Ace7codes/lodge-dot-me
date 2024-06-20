@@ -1,0 +1,101 @@
+.home-hero{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    background-image: url(home-background-light.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-width: 100%;
+    min-height: 100vh;
+    color: #000;
+}
+.home-hero p, h1{
+    margin-left: 6rem;
+    margin-right: 2rem;
+    font-weight: 800;
+    font-size: 2rem;
+}
+.home-hero h1{
+    font-size: 4rem;
+}
+.label{
+    display: none;
+}
+.search{
+    background-color: #333;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.search li{
+    list-style-type: none;
+    margin: 1rem;
+    padding: 1rem;
+}
+.caption{
+    padding-bottom: 1rem;
+    font-weight: 100;
+    font-size: medium;
+    color: whitesmoke;
+    display: none;
+
+}
+#search{
+    width: 60vw;
+    margin: 1rem;
+    padding: 1rem;
+    border: none;
+    border-bottom: 2px solid #333;
+    color: #333;
+    font-weight: 700;
+}
+.display-cards{
+    margin: 1rem;
+    padding: 1rem;
+}
+.cards-layout{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.our-blogs{
+    margin: 1rem;
+    padding: 2rem;
+}
+.our-blogs button{
+    margin: 3rem;
+}
+.blog-articles{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.search-btn{
+    padding: 0;
+    margin: 0.5rem;
+    cursor: pointer;
+}
+.input-search{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.error{
+    display: none;
+}
+.search p{
+    color: whitesmoke;
+}
+.hotel-list li a:hover{
+    background-color: whitesmoke;
+    color: #333;
+    padding: 1.5rem;
+}
+@media (max-width : 380px){
+    .home-hero p, h1{
+        margin-left: 2rem;
+    }
+}
